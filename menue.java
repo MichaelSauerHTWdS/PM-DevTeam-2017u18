@@ -2,52 +2,45 @@
  * Dieses kleine Java-Programm erzeugt ein sehr einfaches
  * Konsolen-Menü und dient dazu die Arbeitsweise eines RCS
  * zu erklären.
- * Autor(en): Michael Sauer, Lukas Gross
+ * Autor(en): Michael Sauer
  * Datum:     03.01.2014
  * Datum:     28.11.2014 //fuer Veraenderung zu demonstrieren
  # Datum:     23.01.2018 //auch fuer Veraenderung zu demonstrieren
- * Datum:     01.02.2018 // richtiges Datum
  * Compile:   javac menue.java
  * Execute:   java menu yo
  */
 
 import java.util.Scanner;
 
-public class menue
-{
+public class menue{
 
     /*
      *
      * TheGreenkey was here
-     * Scott auch
-     * Hi :D
+     *
      */
 
-        public static void main(String[] args)
-		{
-            final int PROGRAMMENDE = 0;
-            final int MICHAEL_SAUER = 1;
-            final int MIKE_SOUR = 2;
-            final int THEGREENKEY = 3;
-            final int BAERMITUMLAUT = 4;
-            final int STEVENUNDSCOTT = 5;
-			final int CONRIANO = 6;
-            boolean isEnde = false;
+        public static void main(String[] args) {
+            final int PROGRAMMENDE=0;
+            final int MICHAEL_SAUER=1;
+            final int MIKE_SOUR=2;
+            final int THEGREENKEY=3;
+            final int BAERMITUMLAUT=4;
+            final int NICE=5;
+            final int BAUM=68179831;
+            boolean isEnde=false;
 
-            String[] textfeld = {"Ciao",
+            String[] textfeld={"Ciao",
                                 "Michael Sauer",
-                                "Mike Sour"
-								};
+                                "Mike Sour"};
 
-            while(!isEnde)
-			{
+            while(!isEnde){
                     Scanner scanner = new Scanner(System.in);
                     int wahl = scanner.nextInt();
-                    switch (wahl)
-					{
+                    switch (wahl) {
                             case PROGRAMMENDE:
                                     System.out.println(textfeld[0]);
-                                    isEnde = true;
+                                    isEnde=true;
                             break;
                             case MICHAEL_SAUER:
                                     System.out.println("Michael Sauer");
@@ -61,20 +54,8 @@ public class menue
                             case BAERMITUMLAUT:
                                 System.out.println("BaerMitUmlaut");
                                 break;
-                            case ZSISAMCI:
-                                System.out.println("zsisamci");
-                                break;
-							case CONRIANO:
-								System.out.println("Conriano");
-								break;
-                    	 case AUDE_NANA:
-                      		System.out.println("Anana");
-				break;
-			 case STEVENUNDSCOTT:
-                                System.out.println("Steven und Scott");
-                                break;
                             default:
-                                    System.out.println("Fehler: Kenn ich nicht!");
+                                    System.out.println("Fehler: Kenne ich nicht!");
                             }
                     }
             }
