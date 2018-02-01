@@ -71,6 +71,8 @@ public class menue{
                                   + "in his sleep. Ironic. He could save others from death, but not"
                                   + "himself."
                                 );
+							case IRONIC:
+								System.out.println("Ironic.");
                                 break;
                             default:
                                     System.out.println("Fehler: Kenne ich nicht!");
