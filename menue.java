@@ -24,22 +24,21 @@ public class menue{
             final int BAERMITUMLAUT=4;
             final int NICE=5;
             final int NIKO = 18;
-	          final int KODI=6;
+	    final int KODI=6;
             final int BAUM=68179831;
             final int IRONIC=7;
-            final int JONAS=17;
-            final int NIKO = 18;
-	          final int BENJAMIN=20;
-	          final int STEVEN_UND_SCOTT=69;
+	    final int STEVEN_UND_SCOTT=88;
 
             final int SICHAEL_MAUER = 8;
-            final int PNIEDERMEYER=42;
 
+            final int PNIEDERMEYER=42;
+		
 	    final int JOGERWERT = 777;
 	    final int MIBLAU    = 23894;
 	    final int ANANA= 10;
 
          
+
             final String HEYMANN="Hey Mann wo ist mein Auto?";
             final int TG=47;
             boolean isEnde=false;
@@ -55,16 +54,16 @@ public class menue{
                             case PROGRAMMENDE:
                                     System.out.println(textfeld[0]);
                                     isEnde=true;
-                            break;				    
+                            break;
                             case MICHAEL_SAUER:
                                     System.out.println("Michael Sauer");
-                            	break;				  
+                            break;
                             case MIKE_SOUR:
                                     System.out.println("Mike Sour");
-                            	break;
+                            break;
                             case THEGREENKEY:
                                     System.out.println("TheGreenkey");
-                            	break;
+                            break;
                             case BAERMITUMLAUT:
                                 System.out.println("BaerMitUmlaut");
                                 break;
@@ -84,38 +83,31 @@ public class menue{
                                   + "in his sleep. Ironic. He could save others from death, but not"
                                   + "himself."
                                 );
-
-				                        break;
-			                     case IRONIC:
-				                        System.out.println("Ironic.");
-
                                 break;
-			                     case STEVEN_UND_SCOTT:
+			     
+							case IRONIC:
+								System.out.println("Ironic.");
+                                break;
+				    case STEVEN_UND_SCOTT:
                                 System.out.println("Steven und Scott");
                                 break;
-			                      case BENJAMIN:
-                                System.out.println("Benjamin");
-                                break;
-                      	   case SICHAEL_MAUER:
-                      		      System.out.println("Sichael Mauer");
-                      		      break;
-                           case JONAS:
-                            	System.out.println("Jonas");
-                            	break;
-                           case NIKO:
-                            	System.out.println("Niko");
-				                      break;
-			                    case PNIEDERMEYER:
-				                      System.out.println("Java = JavaScript");
-				                      break; 
-
+                      case SICHAEL_MAUER:
+                      System.out.println("Sichael Mauer");
+                      break;
+				    
+			case PNIEDERMEYER:
+				    System.out.println("Java = JavaScript");
+						     break;
+                        case NIKO:
+                            System.out.println("Niko");
+                            break;
 
 			    case ANANA:
 				    System.out.println("Anana");
 				    break;
                         case JOGERWERT:
-				                      System.out.println("I bims de Johannes");
-				                      break;
+				    System.out.println("I bims de Johannes");
+				    break;
 				    
 				    
 			    case MIBLAU:
