@@ -14,11 +14,7 @@ import java.util.Scanner;
 
 public class menue{
 
-    /*
-     *
-     * TheGreenkey was here
-     *
-     */
+
 
         public static void main(String[] args) {
             final int DARTH_PLAGUEIS_THE_WISE = -1;
@@ -28,8 +24,17 @@ public class menue{
             final int THEGREENKEY=3;
             final int BAERMITUMLAUT=4;
             final int NICE=5;
+	    final int KODI=6;
             final int BAUM=68179831;
+
+            final int SICHAEL_MAUER = 8;
+
+            final int PNIEDERMEYER=42;
+
+         
+
             final String HEYMANN="Hey Mann wo ist mein Auto?";
+            final int TG=47;
             boolean isEnde=false;
 
             String[] textfeld={"Ciao",
@@ -72,7 +77,12 @@ public class menue{
                                   + "in his sleep. Ironic. He could save others from death, but not"
                                   + "himself."
                                 );
+							case IRONIC:
+								System.out.println("Ironic.");
                                 break;
+                      case SICHAEL_MAUER:
+                      System.out.println("Sichael Mauer");
+                      break;
                             default:
                                     System.out.println("Fehler: Kenne ich nicht!");
                             }
