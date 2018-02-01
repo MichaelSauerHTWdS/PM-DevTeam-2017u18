@@ -30,12 +30,16 @@ public class menue{
             final int JONAS=17;
             final int NIKO = 18;
 	          final int BENJAMIN=20;
-	          final int STEVEN_UND_SCOTT=88;
+	          final int STEVEN_UND_SCOTT=69;
 
             final int SICHAEL_MAUER = 8;
             final int PNIEDERMEYER=42;
-	          final int JOGERWERT = 777;
-	          final int MIBLAU    = 23894;
+
+	    final int JOGERWERT = 777;
+	    final int MIBLAU    = 23894;
+	    final int ANANA= 10;
+
+         
             final String HEYMANN="Hey Mann wo ist mein Auto?";
             final int TG=47;
             boolean isEnde=false;
@@ -104,7 +108,9 @@ public class menue{
 				                      break; 
 
 
-
+			    case ANANA:
+				    System.out.println("Anana");
+				    break;
                         case JOGERWERT:
 				                      System.out.println("I bims de Johannes");
 				                      break;
