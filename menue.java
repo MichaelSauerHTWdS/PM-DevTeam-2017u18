@@ -20,10 +20,10 @@ public class menue
      *
      * TheGreenkey was here
      * Scott auch
-     * Hi :D
+     *
      */
 
-        public static void main(String[] args)
+        public static void main(String[] args) 
 		{
             final int PROGRAMMENDE = 0;
             final int MICHAEL_SAUER = 1;
@@ -32,6 +32,7 @@ public class menue
             final int BAERMITUMLAUT = 4;
             final int STEVENUNDSCOTT = 5;
 			final int CONRIANO = 6;
+		final int KERIMZ = 7;
             boolean isEnde = false;
 
             String[] textfeld = {"Ciao",
@@ -43,7 +44,7 @@ public class menue
 			{
                     Scanner scanner = new Scanner(System.in);
                     int wahl = scanner.nextInt();
-                    switch (wahl)
+                    switch (wahl) 
 					{
                             case PROGRAMMENDE:
                                     System.out.println(textfeld[0]);
@@ -73,9 +74,13 @@ public class menue
 			 case STEVENUNDSCOTT:
                                 System.out.println("Steven und Scott");
                                 break;
+			    case KERIMZ:
+				System.out.println("KerimZ");
+				break;
                             default:
                                     System.out.println("Fehler: Kenn ich nicht!");
                             }
                     }
             }
     }
+
