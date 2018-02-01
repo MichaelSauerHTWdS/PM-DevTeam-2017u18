@@ -24,9 +24,15 @@ public class menue{
             final int THEGREENKEY=3;
             final int BAERMITUMLAUT=4;
             final int NICE=5;
+	    final int KODI=6;
             final int BAUM=68179831;
-         final int pniedermeyer=42;
+
+            final int SICHAEL_MAUER = 8;
+
+            final int PNIEDERMEYER=42;
+
          
+
             final String HEYMANN="Hey Mann wo ist mein Auto?";
             final int TG=47;
             boolean isEnde=false;
@@ -74,6 +80,9 @@ public class menue{
 							case IRONIC:
 								System.out.println("Ironic.");
                                 break;
+                      case SICHAEL_MAUER:
+                      System.out.println("Sichael Mauer");
+                      break;
                             default:
                                     System.out.println("Fehler: Kenne ich nicht!");
                             }
