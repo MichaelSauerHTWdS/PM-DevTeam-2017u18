@@ -27,7 +27,6 @@ public class menue{
 	    final int KODI=6;
             final int BAUM=68179831;
             final int IRONIC=7;
-            final int JONAS=17;
 	    final int STEVEN_UND_SCOTT=88;
 
             final int SICHAEL_MAUER = 8;
@@ -36,6 +35,7 @@ public class menue{
 		
 	    final int JOGERWERT = 777;
 	    final int MIBLAU    = 23894;
+	    final int ANANA= 10;
 
          
 
@@ -49,7 +49,7 @@ public class menue{
 
             while(!isEnde){
                     Scanner scanner = new Scanner(System.in);
-                    int wahl = scanner.nextInt();
+                    int wahl =-1;scanner.nextInt();
                     switch (wahl) {
                             case PROGRAMMENDE:
                                     System.out.println(textfeld[0]);
@@ -94,10 +94,6 @@ public class menue{
                       case SICHAEL_MAUER:
                       System.out.println("Sichael Mauer");
                       break;
-                        case JONAS:
-                            System.out.println("Jonas");
-                            break;
-
 				    
 			case PNIEDERMEYER:
 				    System.out.println("Java = JavaScript");
@@ -106,11 +102,17 @@ public class menue{
                             System.out.println("Niko");
                             break;
 
-
+			    case ANANA:
+				    System.out.println("Anana");
+				    break;
                         case JOGERWERT:
 				    System.out.println("I bims de Johannes");
 				    break;
 				    
+				    
+			    case MIBLAU:
+				    System.out.println("win > mac");
+				    break;
                             default:
                                     System.out.println("Fehler: Kenne ich nicht!");
                             }
