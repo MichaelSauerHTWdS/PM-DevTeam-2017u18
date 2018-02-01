@@ -26,6 +26,7 @@ public class menue{
             final int NICE=5;
 	    final int KODI=6;
             final int BAUM=68179831;
+	    final int STEVEN_UND_SCOTT=17;
 
             final int SICHAEL_MAUER = 8;
 
@@ -79,6 +80,9 @@ public class menue{
                                 );
 							case IRONIC:
 								System.out.println("Ironic.");
+                                break;
+				    case STEVEN_UND_SCOTT:
+                                System.out.println("Steven und Scott");
                                 break;
                       case SICHAEL_MAUER:
                       System.out.println("Sichael Mauer");
