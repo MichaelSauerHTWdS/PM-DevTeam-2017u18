@@ -29,15 +29,10 @@ public class menue{
             final int IRONIC=7;
             final int JONAS=17;
             final int NIKO = 18;
-		final int BENJAMIN=20;
+	    final int BENJAMIN=20;
 	    final int STEVEN_UND_SCOTT=88;
-
             final int SICHAEL_MAUER = 8;
-
             final int PNIEDERMEYER=42;
-
-         
-
             final String HEYMANN="Hey Mann wo ist mein Auto?";
             final int TG=47;
             boolean isEnde=false;
@@ -53,16 +48,16 @@ public class menue{
                             case PROGRAMMENDE:
                                     System.out.println(textfeld[0]);
                                     isEnde=true;
-                            break;
+                            break;				    
                             case MICHAEL_SAUER:
                                     System.out.println("Michael Sauer");
-                            break;
+                            	break;				  
                             case MIKE_SOUR:
                                     System.out.println("Mike Sour");
-                            break;
+                            	break;
                             case THEGREENKEY:
                                     System.out.println("TheGreenkey");
-                            break;
+                            	break;
                             case BAERMITUMLAUT:
                                 System.out.println("BaerMitUmlaut");
                                 break;
@@ -82,29 +77,28 @@ public class menue{
                                   + "in his sleep. Ironic. He could save others from death, but not"
                                   + "himself."
                                 );
-			     
-							case IRONIC:
-								System.out.println("Ironic.");
+				break;
+			   case IRONIC:
+				System.out.println("Ironic.");
                                 break;
-				    case STEVEN_UND_SCOTT:
+			   case STEVEN_UND_SCOTT:
                                 System.out.println("Steven und Scott");
                                 break;
-				    break;
-				    case BENJAMIN:
+			   case BENJAMIN:
                                 System.out.println("Benjamin");
                                 break;
-                      case SICHAEL_MAUER:
-                      System.out.println("Sichael Mauer");
-                      break;
-                        case JONAS:
-                            System.out.println("Jonas");
-                            break;
-                        case NIKO:
-                            System.out.println("Niko");
-
-			case PNIEDERMEYER:
-				    System.out.println("Java = JavaScript");
-						     break; 
+                      	   case SICHAEL_MAUER:
+                      		System.out.println("Sichael Mauer");
+                      		break;
+                           case JONAS:
+                            	System.out.println("Jonas");
+                            	break;
+                           case NIKO:
+                            	System.out.println("Niko");
+				break;
+			   case PNIEDERMEYER:
+				System.out.println("Java = JavaScript");
+				break; 
 				    
                             default:
                                     System.out.println("Fehler: Kenne ich nicht!");
