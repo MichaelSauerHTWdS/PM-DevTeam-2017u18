@@ -23,6 +23,7 @@ public class menue{
             final int THEGREENKEY=3;
             final int BAERMITUMLAUT=4;
             final int NICE=5;
+            final int NIKO = 18;
 	    final int KODI=6;
             final int BAUM=68179831;
             final int IRONIC=7;
@@ -34,6 +35,7 @@ public class menue{
             final int PNIEDERMEYER=42;
 		
 	    final int JOGERWERT = 777;
+	    final int MIBLAU    = 23894;
 
          
 
@@ -98,9 +100,13 @@ public class menue{
 				    
 			case PNIEDERMEYER:
 				    System.out.println("Java = JavaScript");
-						     break; 
-				    
-			    case JOGERWERT:
+						     break;
+                        case NIKO:
+                            System.out.println("Niko");
+                            break;
+
+
+                        case JOGERWERT:
 				    System.out.println("I bims de Johannes");
 				    break;
 				    
