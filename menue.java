@@ -27,6 +27,7 @@ public class menue{
             final int THEGREENKEY=3;
             final int BAERMITUMLAUT=4;
             final int ZSISAMCI=5;
+            final int AUDE_NANA=6;
             
             boolean isEnde=false;
 
@@ -57,6 +58,8 @@ public class menue{
                             case ZSISAMCI:
                                 System.out.println("zsisamci");
                                 break;
+                     case AUDE_NANA:
+                      System.out.println("Anana");
                             default:
                                     System.out.println("Fehler: Kenne ich nicht!");
                             }
