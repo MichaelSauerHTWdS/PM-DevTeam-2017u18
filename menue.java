@@ -27,6 +27,7 @@ public class menue{
             final int BAUM=68179831;
             final int IRONIC=7;
             final int JONAS=17;
+		final int BENJAMIN=20;
 	    final int STEVEN_UND_SCOTT=88;
 
             final int SICHAEL_MAUER = 8;
@@ -85,6 +86,10 @@ public class menue{
                                 break;
 				    case STEVEN_UND_SCOTT:
                                 System.out.println("Steven und Scott");
+                                break;
+				    break;
+				    case BENJAMIN:
+                                System.out.println("Benjamin");
                                 break;
                       case SICHAEL_MAUER:
                       System.out.println("Sichael Mauer");
