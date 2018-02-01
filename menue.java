@@ -32,12 +32,14 @@ public class menue{
             final int SICHAEL_MAUER = 8;
 
             final int PNIEDERMEYER=42;
-		
+
 	    final int JOGERWERT = 777;
 	    final int MIBLAU    = 23894;
 	    final int ANANA= 10;
 
-         
+      final String ORDER = "Execute Order 66";
+
+
 
             final String HEYMANN="Hey Mann wo ist mein Auto?";
             final int TG=47;
@@ -84,7 +86,7 @@ public class menue{
                                   + "himself."
                                 );
                                 break;
-			     
+
 							case IRONIC:
 								System.out.println("Ironic.");
                                 break;
@@ -94,7 +96,7 @@ public class menue{
                       case SICHAEL_MAUER:
                       System.out.println("Sichael Mauer");
                       break;
-				    
+
 			case PNIEDERMEYER:
 				    System.out.println("Java = JavaScript");
 						     break;
@@ -108,8 +110,8 @@ public class menue{
                         case JOGERWERT:
 				    System.out.println("I bims de Johannes");
 				    break;
-				    
-				    
+
+
 			    case MIBLAU:
 				    System.out.println("win > mac");
 				    break;
