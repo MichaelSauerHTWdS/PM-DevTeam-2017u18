@@ -7,7 +7,7 @@
  * Datum:     28.11.2014 //fuer Veraenderung zu demonstrieren zu tun
  # Datum:     23.01.2018 //auch fuer Veraenderung zu demonstrieren zu tun
  * Compile:   javac menue.java
- * Execute:   java menu yo
+ * Execute:   java menu yo ojk coo
  */
 
 import java.util.Scanner;
