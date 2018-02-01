@@ -25,6 +25,7 @@ public class menue{
             final int NICE=5;
 	    final int KODI=6;
             final int BAUM=68179831;
+            final int TG=47
 	    final int STEVEN_UND_SCOTT=88;
 
             final int SICHAEL_MAUER = 8;
