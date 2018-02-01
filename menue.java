@@ -14,11 +14,7 @@ import java.util.Scanner;
 
 public class menue{
 
-    /*
-     *
-     * TheGreenkey was here
-     *
-     */
+
 
         public static void main(String[] args) {
             final int DARTH_PLAGUEIS_THE_WISE = -1;
