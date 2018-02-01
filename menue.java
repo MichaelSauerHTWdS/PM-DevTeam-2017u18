@@ -90,7 +90,7 @@ public class menue{
                       break;
 				    
 			case PNIEDERMEYER:
-				    System.out.println("Java = JavaScript")
+				    System.out.println("Java = JavaScript");
 						     break; 
 				    
                             default:
