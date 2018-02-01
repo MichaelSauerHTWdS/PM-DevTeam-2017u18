@@ -65,7 +65,7 @@ public class menue{
                      case AUDE_NANA:
                       System.out.println("Anana");
                             default:
-                                    System.out.println("Fehler: Kenn ich nicht!");
+                                    System.out.println("Fehlör: Kenn ich nicht!");
                             }
                     }
             }
