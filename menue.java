@@ -4,8 +4,8 @@
  * zu erklären.
  * Autor(en): Michael Sauer
  * Datum:     03.01.2014
- * Datum:     28.11.2014 //fuer Veraenderung zu demonstrieren
- # Datum:     23.01.2018 //auch fuer Veraenderung zu demonstrieren
+ * Datum:     28.11.2014 //fuer Veraenderung zu demonstrieren zu tun
+ # Datum:     23.01.2018 //auch fuer Veraenderung zu demonstrieren zu tun
  * Compile:   javac menue.java
  * Execute:   java menu yo
  */
