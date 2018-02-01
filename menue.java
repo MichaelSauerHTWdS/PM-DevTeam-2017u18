@@ -21,41 +21,41 @@ public class menue{
      */
 
         public static void main(String[] args) {
-        	final int PROGRAMMENDE=0;
-        	final int MICHAEL_SAUER=1;
+            final int PROGRAMMENDE=0;
+            final int MICHAEL_SAUER=1;
             final int MIKE_SOUR=2;
             final int THEGREENKEY=3;
             final int BAERMITUMLAUT=4;
-        	boolean isEnde=false;
+            boolean isEnde=false;
 
-        	String[] textfeld={"Ciao",
+            String[] textfeld={"Ciao",
                                 "Michael Sauer",
                                 "Mike Sour"};
 
-        	while(!isEnde){
-                	Scanner scanner = new Scanner(System.in);
-                	int wahl = scanner.nextInt();
-                	switch (wahl) {
-                        	case PROGRAMMENDE:
-                                	System.out.println(textfeld[0]);
-                                	isEnde=true;
-                        	break;
-                        	case MICHAEL_SAUER:
-                                	System.out.println("Michael Sauer");
-                        	break;
-                        	case MIKE_SOUR:
-                                	System.out.println("Mike Sour");
-                        	break;
+            while(!isEnde){
+                    Scanner scanner = new Scanner(System.in);
+                    int wahl = scanner.nextInt();
+                    switch (wahl) {
+                            case PROGRAMMENDE:
+                                    System.out.println(textfeld[0]);
+                                    isEnde=true;
+                            break;
+                            case MICHAEL_SAUER:
+                                    System.out.println("Michael Sauer");
+                            break;
+                            case MIKE_SOUR:
+                                    System.out.println("Mike Sour");
+                            break;
                             case THEGREENKEY:
                                     System.out.println("TheGreenkey");
                             break;
                             case BAERMITUMLAUT:
                                 System.out.println("BaerMitUmlaut");
                                 break;
-                        	default:
-                                	System.out.println("Fehler: Kenne ich nicht!");
-                        	}
-                	}
-        	}
-	}
+                            default:
+                                    System.out.println("Fehler: Kenne ich nicht!");
+                            }
+                    }
+            }
+    }
 
