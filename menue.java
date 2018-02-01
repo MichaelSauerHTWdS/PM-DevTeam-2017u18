@@ -83,6 +83,7 @@ public class menue{
                                   + "in his sleep. Ironic. He could save others from death, but not"
                                   + "himself."
                                 );
+                                break;
 			     
 							case IRONIC:
 								System.out.println("Ironic.");
