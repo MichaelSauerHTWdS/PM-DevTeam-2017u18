@@ -34,6 +34,7 @@ public class menue
 			final int CONRIANO = 6;
 			final int ZSISAMCI=8;
 			final int AUDE_NANA=10;
+		final int KERIMZ = 7;
             boolean isEnde = false;
 
             String[] textfeld = {"Ciao",
@@ -75,6 +76,9 @@ public class menue
 			 case STEVENUNDSCOTT:
                                 System.out.println("Steven und Scott");
                                 break;
+			    case KERIMZ:
+				System.out.println("KerimZ");
+				break;
                             default:
                                     System.out.println("Fehler: Kenn ich nicht!");
                             }
