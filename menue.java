@@ -30,6 +30,7 @@ public class menue{
             final int NICE=5;
             final int BAUM=68179831;
             final String HEYMANN="Hey Mann wo ist mein Auto?";
+            final int TG=47;
             boolean isEnde=false;
 
             String[] textfeld={"Ciao",
