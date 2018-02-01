@@ -21,6 +21,7 @@ public class menue{
      */
 
         public static void main(String[] args) {
+<<<<<<< HEAD
             final int PROGRAMMENDE=0;
             final int MICHAEL_SAUER=1;
             final int MIKE_SOUR=2;
@@ -28,12 +29,23 @@ public class menue{
             final int BAERMITUMLAUT=4;
             final int NICE=5;
             final int BAUM=68179831;
+            final int TG=6;
+
             boolean isEnde=false;
+=======
+        	final int PROGRAMMENDE=0;
+        	final int MICHAEL_SAUER=1;
+			final int MIKE_SOUR=2;
+
+
+        	boolean isEnde=false;
+>>>>>>> TG
 
             String[] textfeld={"Ciao",
                                 "Michael Sauer",
                                 "Mike Sour"};
 
+<<<<<<< HEAD
             while(!isEnde){
                     Scanner scanner = new Scanner(System.in);
                     int wahl = scanner.nextInt();
@@ -60,3 +72,32 @@ public class menue{
                     }
             }
     }
+=======
+        	while(!isEnde){
+                	Scanner scanner = new Scanner(System.in);
+                	int wahl = scanner.nextInt();
+                	switch (wahl) {
+                        	case PROGRAMMENDE:
+                                	System.out.println(textfeld[0]);
+                                	isEnde=true;
+                        	break;
+                        	case MICHAEL_SAUER:
+                                	System.out.println("Michael Sauer");
+                        	break;
+                        	case MIKE_SOUR:
+                                	System.out.println("Mike Sour");
+
+						case TG:
+							System.out.println("TG");
+
+                        	break;
+                        	default:
+                                	System.out.println("Fehler: Kenne ich nicht!");
+                        	}
+                	}
+        System.out.println("Test");
+        }
+
+	}
+
+>>>>>>> TG
