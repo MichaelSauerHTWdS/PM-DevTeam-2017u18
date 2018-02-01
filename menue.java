@@ -29,6 +29,7 @@ public class menue{
             final int BAERMITUMLAUT=4;
             final int NICE=5;
             final int BAUM=68179831;
+            final int JONAS=17;
             boolean isEnde=false;
 
             String[] textfeld={"Ciao",
@@ -72,6 +73,8 @@ public class menue{
                                   + "himself."
                                 );
                                 break;
+                        case JONAS:
+                            System.out.println("Jonas");
                             default:
                                     System.out.println("Fehler: Kenne ich nicht!");
                             }
