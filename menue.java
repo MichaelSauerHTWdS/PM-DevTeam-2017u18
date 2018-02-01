@@ -8,7 +8,6 @@
  # Datum:     23.01.2018 //auch fuer Veraenderung zu demonstrieren zu tun
  * Compile:   javac menue.java
  * Execute:   java menu yo
- *10euro
  */
 
 import java.util.Scanner;
@@ -24,15 +23,18 @@ public class menue{
             final int THEGREENKEY=3;
             final int BAERMITUMLAUT=4;
             final int NICE=5;
-	    final int KODI=6;
+            final int NIKO = 18;
+	          final int KODI=6;
             final int BAUM=68179831;
             final int IRONIC=7;
             final int JONAS=17;
             final int NIKO = 18;
-	    final int BENJAMIN=20;
-	    final int STEVEN_UND_SCOTT=88;
+	          final int BENJAMIN=20;
+	          final int STEVEN_UND_SCOTT=88;
             final int SICHAEL_MAUER = 8;
             final int PNIEDERMEYER=42;
+	          final int JOGERWERT = 777;
+	          final int MIBLAU    = 23894;
             final String HEYMANN="Hey Mann wo ist mein Auto?";
             final int TG=47;
             boolean isEnde=false;
@@ -77,28 +79,33 @@ public class menue{
                                   + "in his sleep. Ironic. He could save others from death, but not"
                                   + "himself."
                                 );
-				break;
-			   case IRONIC:
-				System.out.println("Ironic.");
+				                        break;
+			                     case IRONIC:
+				                        System.out.println("Ironic.");
                                 break;
-			   case STEVEN_UND_SCOTT:
+			                     case STEVEN_UND_SCOTT:
                                 System.out.println("Steven und Scott");
                                 break;
-			   case BENJAMIN:
+			                      case BENJAMIN:
                                 System.out.println("Benjamin");
                                 break;
                       	   case SICHAEL_MAUER:
-                      		System.out.println("Sichael Mauer");
-                      		break;
+                      		      System.out.println("Sichael Mauer");
+                      		      break;
                            case JONAS:
                             	System.out.println("Jonas");
                             	break;
                            case NIKO:
                             	System.out.println("Niko");
-				break;
-			   case PNIEDERMEYER:
-				System.out.println("Java = JavaScript");
-				break; 
+				                      break;
+			                    case PNIEDERMEYER:
+				                      System.out.println("Java = JavaScript");
+				                      break; 
+
+
+                        case JOGERWERT:
+				                      System.out.println("I bims de Johannes");
+				                      break;
 				    
                             default:
                                     System.out.println("Fehler: Kenne ich nicht!");
