@@ -32,6 +32,8 @@ public class menue
             final int BAERMITUMLAUT = 4;
             final int STEVENUNDSCOTT = 5;
 			final int CONRIANO = 6;
+			final int ZSISAMCI=8;
+			final int AUDE_NANA=10;
             boolean isEnde = false;
 
             String[] textfeld = {"Ciao",
