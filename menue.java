@@ -21,41 +21,41 @@ public class menue{
      */
 
         public static void main(String[] args) {
-        rest_requestfinal int PROGRAMMENDE=0;
-        rest_requestfinal int MICHAEL_SAUER=1;
+        	final int PROGRAMMENDE=0;
+        	final int MICHAEL_SAUER=1;
             final int MIKE_SOUR=2;
             final int THEGREENKEY=3;
             final int BAERMITUMLAUT=4;
-        rest_requestboolean isEnde=false;
+        	boolean isEnde=false;
 
-        rest_requestString[] textfeld={"Ciao",
+        	String[] textfeld={"Ciao",
                                 "Michael Sauer",
                                 "Mike Sour"};
 
-        rest_requestwhile(!isEnde){
-                rest_requestScanner scanner = new Scanner(System.in);
-                rest_requestint wahl = scanner.nextInt();
-                rest_requestswitch (wahl) {
-                        rest_requestcase PROGRAMMENDE:
-                                rest_requestSystem.out.println(textfeld[0]);
-                                rest_requestisEnde=true;
-                        rest_requestbreak;
-                        rest_requestcase MICHAEL_SAUER:
-                                rest_requestSystem.out.println("Michael Sauer");
-                        rest_requestbreak;
-                        rest_requestcase MIKE_SOUR:
-                                rest_requestSystem.out.println("Mike Sour");
-                        rest_requestbreak;
+        	while(!isEnde){
+                	Scanner scanner = new Scanner(System.in);
+                	int wahl = scanner.nextInt();
+                	switch (wahl) {
+                        	case PROGRAMMENDE:
+                                	System.out.println(textfeld[0]);
+                                	isEnde=true;
+                        	break;
+                        	case MICHAEL_SAUER:
+                                	System.out.println("Michael Sauer");
+                        	break;
+                        	case MIKE_SOUR:
+                                	System.out.println("Mike Sour");
+                        	break;
                             case THEGREENKEY:
                                     System.out.println("TheGreenkey");
                             break;
                             case BAERMITUMLAUT:
                                 System.out.println("BaerMitUmlaut");
                                 break;
-                        rest_requestdefault:
-                                rest_requestSystem.out.println("Fehler: Kenne ich nicht!");
-                        rest_request}
-                rest_request}
-        rest_request}
-rest_request}
+                        	default:
+                                	System.out.println("Fehler: Kenne ich nicht!");
+                        	}
+                	}
+        	}
+	}
 
