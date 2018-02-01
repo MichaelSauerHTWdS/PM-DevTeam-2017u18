@@ -13,10 +13,18 @@
 import java.util.Scanner;
 
 public class menue{
+
+    /*
+     *
+     * TheGreenkey was here
+     *
+     */
+
         public static void main(String[] args) {
         	final int PROGRAMMENDE=0;
         	final int MICHAEL_SAUER=1;
-		final int MIKE_SOUR=2;
+            final int MIKE_SOUR=2;
+            final int THEGREENKEY=3;
         	boolean isEnde=false;
 
         	String[] textfeld={"Ciao",
@@ -37,6 +45,9 @@ public class menue{
                         	case MIKE_SOUR:
                                 	System.out.println("Mike Sour");
                         	break;
+                            case THEGREENKEY:
+                                    System.out.println("TheGreenkey");
+                            break;
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
