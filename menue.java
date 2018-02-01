@@ -18,6 +18,7 @@ public class menue
     /*
      *
      * TheGreenkey was here
+     * Scott auch
      *
      */
 
@@ -28,6 +29,7 @@ public class menue
             final int MIKE_SOUR = 2;
             final int THEGREENKEY = 3;
             final int BAERMITUMLAUT = 4;
+            final int STEVENUNDSCOTT = 5;
             boolean isEnde = false;
 
             String[] textfeld = {"Ciao",
@@ -66,6 +68,9 @@ public class menue
                     	 case AUDE_NANA:
                       		System.out.println("Anana");
 				break;
+			 case STEVENUNDSCOTT:
+                                System.out.println("Steven und Scott");
+                                break;	    
                             default:
                                     System.out.println("Fehler: Kenn ich nicht!");
                             }
