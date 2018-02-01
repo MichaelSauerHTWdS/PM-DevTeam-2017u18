@@ -53,7 +53,7 @@ public class menue{
                                 System.out.println("BaerMitUmlaut");
                                 break;
                             default:
-                                    System.out.println("Fehlär: Kenne ich nicht!");
+                                    System.out.println("Fehlr: Kenne ich nicht!");
                             }
                     }
             }
