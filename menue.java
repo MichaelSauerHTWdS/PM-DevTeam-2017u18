@@ -34,6 +34,7 @@ public class menue{
             final int PNIEDERMEYER=42;
 		
 	    final int JOGERWERT = 777;
+	    final int MIBLAU    = 23894;
 
          
 
