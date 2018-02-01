@@ -3,7 +3,7 @@
  * Konsolen-Menü und dient dazu die Arbeitsweise eines RCS
  * zu erklären.
  * Autor(en): Michael Sauer
- * Datum:     03.01.2014
+ * Datum:     01.02.2018
  * Datum:     28.11.2014 //fuer Veraenderung zu demonstrieren zu tun
  # Datum:     23.01.2018 //auch fuer Veraenderung zu demonstrieren zu tun
  * Compile:   javac menue.java
@@ -14,11 +14,6 @@ import java.util.Scanner;
 
 public class menue{
 
-    /*
-     *
-     * TheGreenkey was here
-     *
-     */
 
         public static void main(String[] args) {
             final int DARTH_PLAGUEIS_THE_WISE = -1;
@@ -28,11 +23,21 @@ public class menue{
             final int THEGREENKEY=3;
             final int BAERMITUMLAUT=4;
             final int NICE=5;
+	    final int KODI=6;
             final int BAUM=68179831;
-         final int pniedermeyer=42;
-         final int ETREICHTJETZT=100;
+            final int IRONIC=7;
+            final int JONAS=17;
+		final int BENJAMIN=20;
+	    final int STEVEN_UND_SCOTT=88;
+
+            final int SICHAEL_MAUER = 8;
+
+            final int PNIEDERMEYER=42;
+
          
+
             final String HEYMANN="Hey Mann wo ist mein Auto?";
+            final int TG=47;
             boolean isEnde=false;
 
             String[] textfeld={"Ciao",
@@ -59,8 +64,6 @@ public class menue{
                             case BAERMITUMLAUT:
                                 System.out.println("BaerMitUmlaut");
                                 break;
-                        case ETREICHTJETZT:
-                            System.out.println("ET REICHT JETZT!!!");
                             case DARTH_PLAGUEIS_THE_WISE:
                                 System.out.println(
                                     "Did you ever hear the tragedy of Darth Plagueis The Wise? I"
@@ -77,7 +80,28 @@ public class menue{
                                   + "in his sleep. Ironic. He could save others from death, but not"
                                   + "himself."
                                 );
+			     
+							case IRONIC:
+								System.out.println("Ironic.");
                                 break;
+				    case STEVEN_UND_SCOTT:
+                                System.out.println("Steven und Scott");
+                                break;
+				    break;
+				    case BENJAMIN:
+                                System.out.println("Benjamin");
+                                break;
+                      case SICHAEL_MAUER:
+                      System.out.println("Sichael Mauer");
+                      break;
+                        case JONAS:
+                            System.out.println("Jonas");
+                            break;
+
+			case PNIEDERMEYER:
+				    System.out.println("Java = JavaScript");
+						     break; 
+				    
                             default:
                                     System.out.println("Fehler: Kenne ich nicht!");
                             }
