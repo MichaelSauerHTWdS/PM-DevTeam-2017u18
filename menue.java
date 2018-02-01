@@ -15,7 +15,6 @@ import java.util.Scanner;
 public class menue{
 
 
-
         public static void main(String[] args) {
             final int DARTH_PLAGUEIS_THE_WISE = -1;
             final int PROGRAMMENDE=0;
@@ -27,6 +26,7 @@ public class menue{
 	    final int KODI=6;
             final int BAUM=68179831;
             final int IRONIC=7;
+	    final int STEVEN_UND_SCOTT=88;
 
             final int SICHAEL_MAUER = 8;
 
@@ -80,6 +80,9 @@ public class menue{
                                 );
 							case IRONIC:
 								System.out.println("Ironic.");
+                                break;
+				    case STEVEN_UND_SCOTT:
+                                System.out.println("Steven und Scott");
                                 break;
                       case SICHAEL_MAUER:
                       System.out.println("Sichael Mauer");
