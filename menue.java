@@ -25,6 +25,7 @@ public class menue{
         	final int MICHAEL_SAUER=1;
             final int MIKE_SOUR=2;
             final int THEGREENKEY=3;
+            final int BAERMITUMLAUT=4;
         	boolean isEnde=false;
 
         	String[] textfeld={"Ciao",
@@ -48,6 +49,9 @@ public class menue{
                             case THEGREENKEY:
                                     System.out.println("TheGreenkey");
                             break;
+                            case BAERMITUMLAUT:
+                                System.out.println("BaerMitUmlaut");
+                                break;
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
