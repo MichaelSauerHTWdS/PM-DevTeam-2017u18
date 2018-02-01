@@ -23,6 +23,7 @@ public class menue{
             final int THEGREENKEY=3;
             final int BAERMITUMLAUT=4;
             final int NICE=5;
+            final int JONAS=17;
             final int NIKO = 18;
 	    final int KODI=6;
             final int BAUM=68179831;
@@ -100,6 +101,9 @@ public class menue{
 						     break;
                         case NIKO:
                             System.out.println("Niko");
+                            break;
+                        case JONAS:
+                            System.out.println("Jonas");
                             break;
 
 			    case ANANA:
