@@ -30,7 +30,7 @@ public class menue
             final int MIKE_SOUR = 2;
             final int THEGREENKEY = 3;
             final int BAERMITUMLAUT = 4;
-            final int STEVENUNDSCOTT = 5;
+            final int STEVENUNDSCOTT = 88;
             boolean isEnde = false;
 
             String[] textfeld = {"Ciao",
