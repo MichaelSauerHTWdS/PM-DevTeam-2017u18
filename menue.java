@@ -32,6 +32,7 @@ public class menue
             final int BAERMITUMLAUT = 4;
             final int STEVENUNDSCOTT = 5;
 			final int CONRIANO = 6;
+			final int NITROKLAUS = 1337;
             boolean isEnde = false;
 
             String[] textfeld = {"Ciao",
@@ -67,10 +68,12 @@ public class menue
 							case CONRIANO:
 								System.out.println("Conriano");
 								break;
-                    	 case AUDE_NANA:
-                      		System.out.println("Anana");
-				break;
-			 case STEVENUNDSCOTT:
+							case AUDE_NANA:
+								System.out.println("Anana");
+								break;
+							case NITROKLAUS:
+								System.out.println("Nitroklaus");
+							case STEVENUNDSCOTT:
                                 System.out.println("Steven und Scott");
                                 break;	    
                             default:
