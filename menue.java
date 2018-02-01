@@ -36,6 +36,7 @@ public class menue{
 		
 	    final int JOGERWERT = 777;
 	    final int MIBLAU    = 23894;
+	    final int ANANA= 10;
 
          
 
@@ -105,7 +106,9 @@ public class menue{
                             System.out.println("Niko");
                             break;
 
-
+			    case ANANA:
+				    System.out.println("Anana");
+				    break;
                         case JOGERWERT:
 				    System.out.println("I bims de Johannes");
 				    break;
