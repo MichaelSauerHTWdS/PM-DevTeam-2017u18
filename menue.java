@@ -27,6 +27,7 @@ public class menue{
             final int BAUM=68179831;
             final int IRONIC=7;
             final int JONAS=17;
+            final int NIKO = 18;
 		final int BENJAMIN=20;
 	    final int STEVEN_UND_SCOTT=88;
 
@@ -97,6 +98,8 @@ public class menue{
                         case JONAS:
                             System.out.println("Jonas");
                             break;
+                        case NIKO:
+                            System.out.println("Niko");
 
 			case PNIEDERMEYER:
 				    System.out.println("Java = JavaScript");
