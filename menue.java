@@ -31,6 +31,7 @@ public class menue
             final int THEGREENKEY = 3;
             final int BAERMITUMLAUT = 4;
             final int STEVENUNDSCOTT = 5;
+			final int CONRIANO = 6;
             boolean isEnde = false;
 
             String[] textfeld = {"Ciao",
@@ -64,7 +65,7 @@ public class menue
                                 System.out.println("zsisamci");
                                 break;
 							case CONRIANO:
-								System.out.println("Conriani");
+								System.out.println("Conriano");
 								break;
                     	 case AUDE_NANA:
                       		System.out.println("Anana");
