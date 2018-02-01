@@ -31,6 +31,7 @@ public class menue{
             final int NIKO = 18;
 	          final int BENJAMIN=20;
 	          final int STEVEN_UND_SCOTT=88;
+
             final int SICHAEL_MAUER = 8;
             final int PNIEDERMEYER=42;
 	          final int JOGERWERT = 777;
@@ -45,7 +46,7 @@ public class menue{
 
             while(!isEnde){
                     Scanner scanner = new Scanner(System.in);
-                    int wahl = scanner.nextInt();
+                    int wahl =-1;scanner.nextInt();
                     switch (wahl) {
                             case PROGRAMMENDE:
                                     System.out.println(textfeld[0]);
@@ -103,10 +104,15 @@ public class menue{
 				                      break; 
 
 
+
                         case JOGERWERT:
 				                      System.out.println("I bims de Johannes");
 				                      break;
 				    
+				    
+			    case MIBLAU:
+				    System.out.println("win > mac");
+				    break;
                             default:
                                     System.out.println("Fehler: Kenne ich nicht!");
                             }
