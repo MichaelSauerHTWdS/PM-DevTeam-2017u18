@@ -30,6 +30,7 @@ public class menue{
             final int NICE=5;
             final int BAUM=68179831;
          final int pniedermeyer=42;
+         final int ETREICHTJETZT=100;
          
             final String HEYMANN="Hey Mann wo ist mein Auto?";
             boolean isEnde=false;
@@ -58,6 +59,8 @@ public class menue{
                             case BAERMITUMLAUT:
                                 System.out.println("BaerMitUmlaut");
                                 break;
+                        case ETREICHTJETZT:
+                            System.out.println("ET REICHT JETZT!!!");
                             case DARTH_PLAGUEIS_THE_WISE:
                                 System.out.println(
                                     "Did you ever hear the tragedy of Darth Plagueis The Wise? I"
