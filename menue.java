@@ -2,7 +2,7 @@
  * Dieses kleine Java-Programm erzeugt ein sehr einfaches
  * Konsolen-Menü und dient dazu die Arbeitsweise eines RCS
  * zu erklären.
- * Autor(en): Michael Sauer
+ * Autor(en): Michael Sauer, Lukas Gross
  * Datum:     03.01.2014
  * Datum:     28.11.2014 //fuer Veraenderung zu demonstrieren
  # Datum:     23.01.2018 //auch fuer Veraenderung zu demonstrieren
@@ -12,7 +12,8 @@
 
 import java.util.Scanner;
 
-public class menue{
+public class menue
+{
 
     /*
      *
@@ -20,29 +21,29 @@ public class menue{
      *
      */
 
-        public static void main(String[] args) {
-            final int PROGRAMMENDE=0;
-            final int MICHAEL_SAUER=1;
-            final int MIKE_SOUR=2;
-            final int THEGREENKEY=3;
-            final int BAERMITUMLAUT=4;
-            final int ZSISAMCI=5;
-            final int AUDE_NANA=6;
-			final int CONRIANO=7;
-            
-            boolean isEnde=false;
+        public static void main(String[] args) 
+		{
+            final int PROGRAMMENDE = 0;
+            final int MICHAEL_SAUER = 1;
+            final int MIKE_SOUR = 2;
+            final int THEGREENKEY = 3;
+            final int BAERMITUMLAUT = 4;
+            boolean isEnde = false;
 
-            String[] textfeld={"Ciao",
+            String[] textfeld = {"Ciao",
                                 "Michael Sauer",
-                                "Mike Sour"};
+                                "Mike Sour"
+								};
 
-            while(!isEnde){
+            while(!isEnde)
+			{
                     Scanner scanner = new Scanner(System.in);
                     int wahl = scanner.nextInt();
-                    switch (wahl) {
+                    switch (wahl) 
+					{
                             case PROGRAMMENDE:
                                     System.out.println(textfeld[0]);
-                                    isEnde=true;
+                                    isEnde = true;
                             break;
                             case MICHAEL_SAUER:
                                     System.out.println("Michael Sauer");
