@@ -29,6 +29,8 @@ public class menue{
             final int BAERMITUMLAUT=4;
             final int NICE=5;
             final int BAUM=68179831;
+         final int pniedermeyer=42;
+         
             final String HEYMANN="Hey Mann wo ist mein Auto?";
             boolean isEnde=false;
 
