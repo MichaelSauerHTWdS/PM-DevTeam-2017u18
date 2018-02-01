@@ -52,7 +52,7 @@ public class menue{
 
             while(!isEnde){
                     Scanner scanner = new Scanner(System.in);
-                    int wahl =-1;scanner.nextInt();
+                    int wahl =scanner.nextInt();
                     switch (wahl) {
                             case PROGRAMMENDE:
                                     System.out.println(textfeld[0]);
