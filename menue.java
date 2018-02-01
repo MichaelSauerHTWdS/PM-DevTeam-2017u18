@@ -3,7 +3,7 @@
  * Konsolen-Menü und dient dazu die Arbeitsweise eines RCS
  * zu erklären.
  * Autor(en): Michael Sauer
- * Datum:     03.01.2014
+ * Datum:     01.02.2018
  * Datum:     28.11.2014 //fuer Veraenderung zu demonstrieren zu tun
  # Datum:     23.01.2018 //auch fuer Veraenderung zu demonstrieren zu tun
  * Compile:   javac menue.java
@@ -26,6 +26,7 @@ public class menue{
             final int NICE=5;
 	    final int KODI=6;
             final int BAUM=68179831;
+            final int IRONIC=7;
 
             final int SICHAEL_MAUER = 8;
 
