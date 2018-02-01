@@ -78,6 +78,7 @@ public class menue{
                                   + "in his sleep. Ironic. He could save others from death, but not"
                                   + "himself."
                                 );
+			     
 							case IRONIC:
 								System.out.println("Ironic.");
                                 break;
@@ -87,6 +88,11 @@ public class menue{
                       case SICHAEL_MAUER:
                       System.out.println("Sichael Mauer");
                       break;
+				    
+			case PNIEDERMEYER:
+				    System.out.println("Java = JavaScript")
+						     break; 
+				    
                             default:
                                     System.out.println("Fehler: Kenne ich nicht!");
                             }
