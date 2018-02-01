@@ -63,10 +63,11 @@ public class menue
 							case CONRIANO:
 								System.out.println("Conriani");
 								break;
-                     case AUDE_NANA:
-                      System.out.println("Anana");
+                    	 case AUDE_NANA:
+                      		System.out.println("Anana");
+				break;
                             default:
-                                    System.out.println("Error: Kenn ich nicht!");
+                                    System.out.println("Fehler: Kenn ich nicht!");
                             }
                     }
             }
