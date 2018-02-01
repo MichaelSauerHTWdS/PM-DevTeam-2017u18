@@ -57,8 +57,16 @@ public class menue
                             case BAERMITUMLAUT:
                                 System.out.println("BaerMitUmlaut");
                                 break;
+                            case ZSISAMCI:
+                                System.out.println("zsisamci");
+                                break;
+							case CONRIANO:
+								System.out.println("Conriani");
+								break;
+                     case AUDE_NANA:
+                      System.out.println("Anana");
                             default:
-                                    System.out.println("Fehler: Kenne ich nicht!");
+                                    System.out.println("Fehler: Kenn ich nicht!");
                             }
                     }
             }
