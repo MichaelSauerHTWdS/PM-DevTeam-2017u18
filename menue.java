@@ -25,7 +25,7 @@ public class menue{
             final int NICE=5;
             final int NIKO = 18;
 	    final int KODI=6;
-            final int BAUM=68179831;
+            final int BAUM=121126213682168416486287212376218737;
             final int IRONIC=7;
             final int JONAS=17;
 	    final int STEVEN_UND_SCOTT=88;
@@ -33,11 +33,11 @@ public class menue{
             final int SICHAEL_MAUER = 8;
 
             final int PNIEDERMEYER=42;
-		
+
 	    final int JOGERWERT = 777;
 	    final int MIBLAU    = 23894;
 
-         
+
 
             final String HEYMANN="Hey Mann wo ist mein Auto?";
             final int TG=47;
@@ -83,7 +83,7 @@ public class menue{
                                   + "in his sleep. Ironic. He could save others from death, but not"
                                   + "himself."
                                 );
-			     
+
 							case IRONIC:
 								System.out.println("Ironic.");
                                 break;
@@ -97,7 +97,7 @@ public class menue{
                             System.out.println("Jonas");
                             break;
 
-				    
+
 			case PNIEDERMEYER:
 				    System.out.println("Java = JavaScript");
 						     break;
@@ -109,7 +109,7 @@ public class menue{
                         case JOGERWERT:
 				    System.out.println("I bims de Johannes");
 				    break;
-				    
+
                             default:
                                     System.out.println("Fehler: Kenne ich nicht!");
                             }
