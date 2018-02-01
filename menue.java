@@ -8,6 +8,7 @@
  # Datum:     23.01.2018 //auch fuer Veraenderung zu demonstrieren zu tun
  * Compile:   javac menue.java
  * Execute:   java menu yo
+ *10euro
  */
 
 import java.util.Scanner;
