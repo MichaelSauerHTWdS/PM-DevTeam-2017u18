@@ -6,6 +6,7 @@
  * Datum:     03.01.2014
  * Datum:     28.11.2014 //fuer Veraenderung zu demonstrieren
  # Datum:     23.01.2018 //auch fuer Veraenderung zu demonstrieren
+ * Datum:     01.02.2018 // richtiges Datum
  * Compile:   javac menue.java
  * Execute:   java menu yo
  */
@@ -18,6 +19,7 @@ public class menue
     /*
      *
      * TheGreenkey was here
+     * Scott auch
      *
      */
 
@@ -28,6 +30,8 @@ public class menue
             final int MIKE_SOUR = 2;
             final int THEGREENKEY = 3;
             final int BAERMITUMLAUT = 4;
+            final int STEVENUNDSCOTT = 5;
+			final int CONRIANO = 6;
             boolean isEnde = false;
 
             String[] textfeld = {"Ciao",
@@ -61,11 +65,14 @@ public class menue
                                 System.out.println("zsisamci");
                                 break;
 							case CONRIANO:
-								System.out.println("Conriani");
+								System.out.println("Conriano");
 								break;
                     	 case AUDE_NANA:
                       		System.out.println("Anana");
 				break;
+			 case STEVENUNDSCOTT:
+                                System.out.println("Steven und Scott");
+                                break;	    
                             default:
                                     System.out.println("Fehler: Kenn ich nicht!");
                             }
